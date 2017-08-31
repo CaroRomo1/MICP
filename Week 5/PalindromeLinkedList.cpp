@@ -25,7 +25,7 @@ ListNode* reverse(ListNode *head) {
 
 bool isPalindrome(ListNode *head) {
     // Check for NULL
-    if(head != NULL || head->next != NULL) {
+    if(head == NULL) {
         throw invalid_argument("NULL VALUE");
     }
     
